@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+from pathlib import Path
 
 @dataclass
 class Track:
@@ -7,3 +8,4 @@ class Track:
     artist: str
     album: str
     duration: int
+    full_path: Path | str
