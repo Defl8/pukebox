@@ -7,5 +7,5 @@ class Track:
     title: str
     artist: str
     album: str
-    duration: int
+    duration: float | None
     full_path: Path | str
